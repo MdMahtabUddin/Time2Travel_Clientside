@@ -16,7 +16,7 @@ import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 import AboutUs from './components/AboutUs/AboutUs';
 import Appointment from './components/Appointment/Appointment';
-import OurTeam from './components/OurTeam/OurTeam';
+
 import Footer from './components/Footer/Footer';
 
 import AllServices from './components/Home/AllServices/AllServices';
@@ -54,9 +54,7 @@ function App() {
                 <Appointment></Appointment>
               </PrivateRoute>
 
-              <Route path="/our-team">
-                <OurTeam></OurTeam>
-              </Route>
+              
 
               
 

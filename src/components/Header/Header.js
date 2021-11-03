@@ -21,7 +21,7 @@ const Header = () => {
             
             <nav className="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
                 <div className="container">
-                <h5>Life & Care Hospital</h5>
+                <h5>Time 2 Travel </h5>
                     <Link to="/home">
                         
                     </Link>
