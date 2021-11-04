@@ -14,12 +14,13 @@ import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import Login from './components/Login/Login/Login';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
-import AboutUs from './components/AboutUs/AboutUs';
+
 import Appointment from './components/Appointment/Appointment';
 
 import Footer from './components/Footer/Footer';
 
 import AllServices from './components/Home/AllServices/AllServices';
+import AddService from './components/AddService/AddService';
 
 
 
@@ -46,14 +47,14 @@ function App() {
                 <AllServices></AllServices>
               </PrivateRoute>
 
-              <Route path="/about">
-                <AboutUs></AboutUs>
-              </Route>
+              
 
               <PrivateRoute path="/appointment">
                 <Appointment></Appointment>
               </PrivateRoute>
-
+<Route path="/addService">
+  <AddService></AddService>
+</Route>
               
 
               

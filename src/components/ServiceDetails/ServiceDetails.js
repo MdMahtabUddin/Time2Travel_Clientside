@@ -32,7 +32,7 @@ const ServiceDetails = () => {
             <div className="d-flex flex-column page-title-container justify-content-center align-items-center" >
                 <div className="text-center" data-aos="fade-down">
                     <h2 className="fw-bold page-title fs-1">{name}</h2>
-                    <p>“Counseling For Everyone’’</p>
+                    <p>Enjoy  every moment of Travel</p>
 
                 </div>
             </div>

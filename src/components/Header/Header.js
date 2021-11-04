@@ -45,17 +45,15 @@ const Header = () => {
                                 <Link to="/service" className="nav-link">SERVICES</Link>
                             </li>
                             
-                            <li className="nav-item cool-link">
-                                <Link to="/our-team" className="nav-link">OUR TEAM</Link>
-                            </li>
-                            <li className="nav-item cool-link">
+                            
+                            {/* <li className="nav-item cool-link">
                                 <Link to="/appointment" className="nav-link">
                                      APPOINTMENT
                                 </Link>
-                            </li>
-                            <li className="nav-item cool-link">
+                            </li> */}
+                            {/* <li className="nav-item cool-link">
                                 <Link to="/about" className="nav-link">ABOUT US</Link>
-                            </li>
+                            </li> */}
                             
                             
                             
