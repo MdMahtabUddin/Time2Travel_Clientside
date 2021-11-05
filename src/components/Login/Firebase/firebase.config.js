@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCgq7eIv6y6P4E-JGeZv1GrOYEdYdC46GE",
-    authDomain: "life-care-2b1dd.firebaseapp.com",
-    projectId: "life-care-2b1dd",
-    storageBucket: "life-care-2b1dd.appspot.com",
-    messagingSenderId: "910069607621",
-    appId: "1:910069607621:web:792e9c20315b33d7c894ac"
-  };
+  apiKey: "AIzaSyAqlobP1FG_Nm_G4MmtYsNr6I-NSsvczas",
+  authDomain: "time2travel-41e28.firebaseapp.com",
+  projectId: "time2travel-41e28",
+  storageBucket: "time2travel-41e28.appspot.com",
+  messagingSenderId: "29900010664",
+  appId: "1:29900010664:web:1aab9d49c8ce688375be9d"
+};
 
   export default firebaseConfig;
