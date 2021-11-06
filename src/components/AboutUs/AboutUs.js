@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutUs.css';
 
-import womenAboutUsImg from '../../images/women-about-us.jpg';
+import about from '../../images/about.jpg';
 
 
 
@@ -14,7 +14,7 @@ const AboutUs = () => {
         <div className="banner-container">
           <div className="row d-flex align-items-center justify-content-center">
             <div className="col-md-6">
-              <img className="w-100 m-2" src={womenAboutUsImg} alt="" />
+              <img className="w-100 m-2 h-50" src={about} alt="" />
             </div>
             <div className="col-md-6 p-5">
               <h1 className="my-5 text-success">About Us</h1>

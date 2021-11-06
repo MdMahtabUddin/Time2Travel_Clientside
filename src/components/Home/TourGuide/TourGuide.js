@@ -6,8 +6,8 @@ const TourGuide = () => {
         <div>
             <div className="container">
             <div className="about-title2 mt-5">
-                         <h5 className="tomato-text">Tour Guide</h5>
-                         <h2 className="top-title">All Guide Are 5 Year<br/>Expart In Travel</h2>
+                        
+                         <h2 className="my-3 text-center">All Guide Are 5 Year<br/>Expart In Travel</h2>
             </div>             
 
             <div className="about-grid mt-5">

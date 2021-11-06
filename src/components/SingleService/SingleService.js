@@ -26,7 +26,7 @@ const SingleService = (props) => {
                 <div className="p-3">
                     <Link to={url} className="card-link">
                         <button className="btn btn-outline-success learn-more-btn">
-                            Learn More <FontAwesomeIcon icon={faAngleDoubleRight} />
+                            Booking <FontAwesomeIcon icon={faAngleDoubleRight} />
                         </button>
                     </Link>
                 </div>
