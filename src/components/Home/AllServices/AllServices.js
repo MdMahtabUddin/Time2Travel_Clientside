@@ -22,7 +22,7 @@ const AllServices = () => {
         <div id="ourservices">
             <h2 className="my-3 text-center">
                 <span className="border-success border-2 border-bottom">
-                    Our Services
+                    Our Tour Packages
                 </span>
             </h2>
 

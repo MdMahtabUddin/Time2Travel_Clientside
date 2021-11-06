@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Navbar, Container, Nav, Button, Dropdown } from "react-bootstrap";
+
 import './Header.css';
 import useAuth from '../../hooks/useAuth';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -42,7 +44,7 @@ const Header = () => {
                             </li>
                             <li className="nav-item cool-link">
                                 {/* <HashLink as={HashLink} to="/home#ourservices" className="nav-link">SERVICES</HashLink> */}
-                                <Link to="/service" className="nav-link">SERVICES</Link>
+                                <Link to="/service" className="nav-link">PACKAGES</Link>
                             </li>
                             
                             
@@ -54,7 +56,33 @@ const Header = () => {
                             {/* <li className="nav-item cool-link">
                                 <Link to="/about" className="nav-link">ABOUT US</Link>
                             </li> */}
-                            
+                            {user?.email ? (
+                <Dropdown>
+                <Dropdown.Toggle
+                  id="dropdown-button-dark-example1"
+                  variant="secondary"
+                  className="dropdownBtnClr"
+                >
+                  Admin
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu className="customDropDown">
+                  <Dropdown.Item as={HashLink} to="/manageAllBooking" active>
+                    All Booking Info
+                  </Dropdown.Item>
+                  <Dropdown.Divider />
+                  <Dropdown.Item as={HashLink} to="/addService">
+                    Add Offer
+                  </Dropdown.Item>
+                  <Dropdown.Divider />
+                  <Dropdown.Item as={HashLink} to="/myBooking">
+                    My Booking Info
+                  </Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+              ) : ''
+             
+              }
                             
                             
                             
