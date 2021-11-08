@@ -1,10 +1,12 @@
-const firebaseConfig = {
-  apiKey: "AIzaSyAqlobP1FG_Nm_G4MmtYsNr6I-NSsvczas",
-  authDomain: "time2travel-41e28.firebaseapp.com",
-  projectId: "time2travel-41e28",
-  storageBucket: "time2travel-41e28.appspot.com",
-  messagingSenderId: "29900010664",
-  appId: "1:29900010664:web:1aab9d49c8ce688375be9d"
-};
+// console.log(process.env);
 
-  export default firebaseConfig;
+const firebaseConfig = {
+      apiKey: "AIzaSyAg-ASVxu4ITSa3pxLHSoHpV37pjUQg3PI",
+      authDomain: "travel-93dca.firebaseapp.com",
+      projectId: "travel-93dca",
+      storageBucket: "travel-93dca.appspot.com",
+      messagingSenderId: "406231727685",
+      appId: "1:406231727685:web:c8fc4d877fe538e718ed2c"
+    };
+
+export default firebaseConfig;

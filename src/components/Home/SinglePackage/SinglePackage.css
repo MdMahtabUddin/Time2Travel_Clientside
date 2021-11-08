@@ -1,0 +1,54 @@
+
+
+.packages-card-img{
+    /* width: 750px;
+    height: 500px; */
+    
+}
+
+/* .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+} */
+
+/* .packages-card-img{
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.packages-card-img:hover{
+    overflow: hidden;
+    transform: scale(1.3);
+} */
+
+
+/* .package-image{
+    overflow: hidden;
+}
+
+.package-image img{
+    transition: transform 0.5s ease-in-out;
+    
+} */
+
+.package:hover img{
+    opacity: .8;
+}
+
+.package img{
+    transition: 0.3s
+}
+
+.react-hook-link{
+    text-decoration: none;
+    color: black;
+}
+
+
+.react-hook-link:hover .card-title{
+    color: #424242;
+    text-decoration: underline ;
+}
+
+

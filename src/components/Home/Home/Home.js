@@ -1,22 +1,20 @@
 import React from 'react';
-
-
-
-import AllServices from '../AllServices/AllServices';
+import AllPackage from '../AllPackage/AllPackage';
+import ContactUs from '../ContactUs/ContactUs/ContactUs';
 import HeroSection from '../HeroSection/HeroSection';
-import AboutUs from '../../AboutUs/AboutUs'
-import TourGuide from '../TourGuide/TourGuide';
+import PhotoGallery from '../PhotoGallery/PhotoGallery';
+import Reviews from '../Reviews/Reviews';
+import './Home.css';
+
 
 const Home = () => {
     return (
         <div>
             <HeroSection></HeroSection>
-           
-           
-            <AllServices></AllServices>
-            <TourGuide></TourGuide>
-            <AboutUs></AboutUs>
-            
+            <AllPackage></AllPackage>
+            <Reviews></Reviews>
+            <PhotoGallery></PhotoGallery>
+            <ContactUs></ContactUs>
         </div>
     );
 };

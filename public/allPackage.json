@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Bungalow",
+        "details": "Our two room bungalows has private lobby and dinning facilities. All rooms are Double Bed, Toilet and bath with hot and cold water facilities. Bungalow charge Tk. 9000/++-. See food menu of our restaurants. Check-in time: 11:00 AM, Check-Out time: 10:00 AM",
+        "image": "https://i.ibb.co/4f1J5zT/bw4.jpg"
+    },
+    {
+        "name": "Glamping Tents",
+        "details": "BDT 3500/++ per night. Glamping tents are non AC but we assure you tons of Natural Air :-) All the tents have 2 rooms and 5 beds with common toilet and shower facilities. See food menu of our restaurants. Check-in time: 11:00 AM, Check-Out time: 10:00 AM",
+        "image": "https://i.ibb.co/4f1J5zT/bw4.jpg"
+    },
+    {
+        "name": "School Activity Packages",
+        "details": "Minimum Group Size: 8 person, Maximum Capacity: 100 Person (if you wish to join individually, please call 01995333111, 01952777999, 01942777999 for the next program date)",
+        "activity": "On tree, On ground, Zip lines, Archery, football, cricket, Badminton, Leadership Development Activities, Rain forest Shower, Children activity areas",
+        "image": "https://i.ibb.co/4f1J5zT/bw4.jpg"
+    },
+    {
+        "name": "Corporate Package",
+        "details": "Minimum Group Size: 8 person, Maximum Capacity: 100 Person (if you wish to join individually, please call 01995333111, 01952777999, 01942777999 for the next program date)",
+        "activity": "On tree, On ground, Zip lines, Archery, football, cricket, Badminton, Rain forest Shower, Children activity areas.",
+        "image": "https://i.ibb.co/4f1J5zT/bw4.jpg"
+    },
+    {
+        "name": "Family Activity Package",
+        "details": "Minimum Group Size: 8 person, Maximum Capacity: 100 Person (if you wish to join individually, please call 01995333111, 01952777999, 01942777999 for the next program date)",
+        "activity": "On tree, On ground, Zip lines, Archery, football, cricket, Badminton, Rain forest Shower, Children activity areas.",
+        "image": "https://i.ibb.co/4f1J5zT/bw4.jpg"
+    },
+    {
+        "name": "Picnic / Day Out",
+        "details": "Minimum Group Size: 100 person, Maximum Capacity: 500 Person (if you wish to join individually, please call 01995333111, 01952777999, 01942777999 for the next program date)",
+        "activity": "Football, Cricket, Badminton, Boating and Kayaking, Fishing with all the required gears.",
+        "image": "https://i.ibb.co/4f1J5zT/bw4.jpg"
+    }
+]

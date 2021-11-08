@@ -4,16 +4,12 @@ import useAuth from '../../../hooks/useAuth';
 import Loading from '../../Loading/Loading';
 
 const PrivateRoute = ({ children, ...rest }) => {
-
     const { user, isLoading } = useAuth();
-
     if (isLoading) {
-        return <Loading></Loading>;
+        return <Loading></Loading>
     }
-
     return (
         <Route
-
             {...rest}
             render={({ location }) => user.email ? children : <Redirect
                 to={{
@@ -21,8 +17,8 @@ const PrivateRoute = ({ children, ...rest }) => {
                     state: { from: location }
                 }}
             ></Redirect>
-            }
 
+            }
         >
 
         </Route>

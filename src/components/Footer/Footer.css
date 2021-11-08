@@ -1,45 +1,98 @@
-.footer {
-  height: 500px;
-  background-color: rgba(10, 3, 43, 0.856);
-  color: white;
+footer {
+    background: #40461c;
+    color: #fff;
+    font-size: 14px;
 }
-
-.footer-flex {
-  display: flex;
-  justify-content: space-between;
+footer .footer-top {
+    background: #40461c;
+    padding: 50px 0px 20px;
 }
-
-.brand-title {
-  color: white;
+footer .address p {
+    font-size: 16px;
+    color: #ddd;
+    font-style: italic;
 }
-
-.brand-short {
-  color: white;
+footer .social-links a {
+    font-size: 17px;
+    display: inline-block;
+    background: #28251f;
+    color: #fff;
+    line-height: 1;
+    padding: 9px 0;
+    margin-right: 5px;
+    border-radius: 100%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.4s;
 }
-
-.icon {
-  font-size: 30px;
-  color: tomato;
+footer .social-links a:hover {
+    background: #8bc34a;
 }
-.icon-p {
-  font-size: 20px;
-  color: tomato;
+footer h4 {
+    font-size: 18px;
+    color: #cddc39;
+    padding-bottom: 12px;
 }
-
-.padding {
-  margin-top: -15px;
+footer .footer-menus {
+    margin-bottom: 30px;
 }
-
-.payment {
-  font-size: 50px;
+footer .footer-menus ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
-
-@media screen and (max-width: 850px) {
-  .footer-flex {
-    display: block;
-  }
-
-  .footer {
-    height: 1400px;
-  }
+footer .footer-menus ul li {
+    margin-bottom: 10px;
+}
+footer .footer-menus ul i {
+    color: #ffffff;
+    font-size: 12px;
+    margin-right: 3px;
+}
+footer .footer-menus ul a {
+    color: #fff;
+    text-decoration: none;
+}
+footer .footer-menus ul a:hover {
+    color: #cddc39;
+}
+footer .newsletter form {
+    margin-top: 30px;
+    background: #3a3a3a;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid #3a3a3a;
+}
+footer .newsletter form input[type="email"] {
+    border: 0;
+    padding: 5px;
+    background: #3a3a3a;
+    color: #fff;
+}
+footer .newsletter form input[type="email"]:focus {
+    outline: none;
+}
+footer .newsletter form input[type="submit"] {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    border: 0;
+    font-size: 16px;
+    background: #cddc39;
+    color: #000;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+}
+footer .newsletter form input[type="submit"]:hover {
+    background: #d5e440;
+}
+.footer-bottom {
+    padding: 20px 0px;
+}
+footer .footer-bottom a {
+    color: #cddc39;
+    text-decoration: none;
 }

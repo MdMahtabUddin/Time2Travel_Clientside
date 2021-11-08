@@ -1,7 +1,4 @@
 
-.user-image{
-    padding: 2px;
-}
 
 li {
     margin-bottom: 10px;
@@ -17,11 +14,41 @@ li {
     display: block;
     width: 0;
     height: 2px;
-    background: #0E6832;
+    background: #40461C;
     transition: width .4s;
 }
 
 .cool-link:hover::after {
     width: 100%;
     transition: width .4s;
+}
+
+/* .dropdown:hover>.dropdown-menu {
+    display: block;
+} */
+
+/* .dropdown-menu {
+width: 200px;
+  } */
+/* 
+  .dropdown{
+      margin-right: 150px; 
+      background-color: red;
+  } */
+
+.menu-bg{
+    padding-left: 10px;
+}
+
+.menu-bg:hover{
+    background-color: #D3D3D3;
+}
+
+.react-router-link{
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    width: 300px !important;
+    /* height: 400px !important; */
 }

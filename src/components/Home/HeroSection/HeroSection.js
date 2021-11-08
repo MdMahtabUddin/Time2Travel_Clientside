@@ -1,52 +1,109 @@
 import React from 'react';
 import './HeroSection.css';
-import img1 from '../../../images/img1.jpg';
-import img2 from '../../../images/img2.jpg';
-import img3 from '../../../images/img3.jpg';
-
-// import Typist from 'react-typist';
-// import { NavLink } from 'react-router-dom';
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
-import { Button, Carousel, Dropdown } from 'react-bootstrap';
-
+import slider1 from '../../../images/slider/1.jpg';
+import slider2 from '../../../images/slider/2.jpg';
+import slider3 from '../../../images/slider/3.jpg';
+import slider4 from '../../../images/slider/4.jpg';
+import slider5 from '../../../images/slider/5.jpg';
+import slider6 from '../../../images/slider/6.jpg';
+import heroGif from '../../../images/slider/heroGif.gif';
 
 const HeroSection = () => {
     return (
-        <div >
-      <Carousel fade className="">
-        <Carousel.Item>
-          <img className="d-block h-50 " src={img1} alt="First slide" />
-          <Carousel.Caption>
-            <h1>Amazing Tour Hampishire</h1>
-            <p> 7 days,8 Night Tour</p>
-            <Button className="banner-btn">Explore</Button>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block h-50" src={img2} alt="Second slide" />
+        <div id="carouselExampleIndicators" className="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div className="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
 
-          <Carousel.Caption>
-            <h1>Amazing Tour in Indonesia</h1>
-            <p>7 days,8 Night Tour</p>
-            <Button className="banner-btn">Explore</Button>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img className="d-block" src={img3} alt="Third slide" />
+            <div className="carousel-inner">
+                <div className="carousel-item  active">
+                    <img src={slider6} className="d-block w-100" alt="..." />
+                    <div className=" carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <img className="img-fluid" src={heroGif} alt="" style={{ height: 200 }} />
+                        </div>
+                        <div>
+                            <p className="font-monospace">WHERE YOUR ADVENTURES BEGIN</p>
+                            <h1 className="font-monospace display-1">BASECAMP</h1>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item ">
+                    <img src={slider2} className="d-block w-100" alt="..." />
+                    <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <img className="img-fluid" src={heroGif} alt="" style={{ height: 200 }} />
+                        </div>
+                        <div>
+                            <p className="font-monospace">WHERE YOUR ADVENTURES BEGIN</p>
+                            <h1 className="font-monospace display-1">BASECAMP</h1>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item ">
+                    <img src={slider3} className="d-block w-100" alt="..." />
+                    <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <img className="img-fluid" src={heroGif} alt="" style={{ height: 200 }} />
+                        </div>
+                        <div>
+                            <p className="font-monospace">WHERE YOUR ADVENTURES BEGIN</p>
+                            <h1 className="font-monospace display-1">BASECAMP</h1>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item ">
+                    <img src={slider4} className="d-block w-100" alt="..." />
+                    <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <img className="img-fluid" src={heroGif} alt="" style={{ height: 200 }} />
+                        </div>
+                        <div>
+                            <p className="font-monospace">WHERE YOUR ADVENTURES BEGIN</p>
+                            <h1 className="font-monospace display-1">BASECAMP</h1>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item ">
+                    <img src={slider5} className="d-block w-100" alt="..." />
+                    <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <img className="img-fluid" src={heroGif} alt="" style={{ height: 200 }} />
+                        </div>
+                        <div>
+                            <p className="font-monospace">WHERE YOUR ADVENTURES BEGIN</p>
+                            <h1 className="font-monospace display-1">BASECAMP</h1>
+                        </div>
+                    </div>
+                </div>
+                <div className="carousel-item ">
+                    <img src={slider1} className="d-block w-100" alt="..." />
+                    <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div>
+                            <img className="img-fluid" src={heroGif} alt="" style={{ height: 200 }} />
+                        </div>
+                        <div>
+                            <p className="font-monospace">WHERE YOUR ADVENTURES BEGIN</p>
+                            <h1 className="font-monospace display-1">BASECAMP</h1>
+                        </div>
+                    </div>
+                </div>
 
-          <Carousel.Caption>
-            <h1>Amazing Tour in Madagascar</h1>
-            <p>7 days,8 Night Tour</p>
-            <Button className="banner-btn">Explore</Button>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-      <div className="find-form">
-       
-      </div>
-    </div>
+            </div>
+            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Previous</span>
+            </button>
+            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Next</span>
+            </button>
+        </div>
     );
 };
 

@@ -1,28 +1,31 @@
-/* global styles */
 
-body {
-  font-family: "Roboto", sans-serif;
+
+body{
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F2F3F8;
 }
 
-.custom-green-btn {
-  background-color: #0e6832;
-  color: white;
+h1, h2, h3{
+  font-family: 'Stardos Stencil', cursive;
 }
 
-.custom-green-btn:hover {
-  background-color: #0e6832;
-  color: white;
+::selection {
+  /* color: red; */
+  background: #FEFAC7;
 }
 
-.custom-green-color {
-  color: #0e6832;
+.custom-khaki-color {
+  color: #40461C;
 }
-/* 
-.page-title-container{
-  height: 300px;
-  width: 100%;
-  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./images/header.gif");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-} */
+
+.custom-btn-style{
+  background: #40461C;
+  color: white; 
+}
+
+.custom-btn-style:hover{
+  background: #40461C;
+  color: rgba(255, 255, 255, 0.829); 
+}
+

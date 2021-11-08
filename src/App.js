@@ -1,39 +1,30 @@
 import './App.css';
-import Header from './components/Header/Header';
-import Home from './components/Home/Home/Home';
-import NotFound from './components/NotFound/NotFound';
-
 import {
   BrowserRouter as Router,
   Switch,
-  Route
-
+  Route,
 } from "react-router-dom";
-
-import ServiceDetails from './components/ServiceDetails/ServiceDetails';
+import Home from './components/Home/Home/Home';
+import NotFound from './components/NotFound/NotFound';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
+import Header from './components/Header/Header';
+import AddPackage from './components/AddPackage/AddPackage';
 import Login from './components/Login/Login/Login';
-import AuthProvider from './contexts/AuthProvider';
+import PackageDetail from './components/PackageDetail/PackageDetail';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
-
-import Appointment from './components/Appointment/Appointment';
-
+import AuthProvider from './contexts/AuthProvider';
+import AllBooking from './components/Booking/AllBooking/AllBooking';
+import MyBooking from './components/Booking/MyBooking/MyBooking';
 import Footer from './components/Footer/Footer';
-
-import AllServices from './components/Home/AllServices/AllServices';
-import AddService from './components/AddService/AddService';
-
 
 
 function App() {
   return (
     <div className="App">
-
       <AuthProvider>
-
         <Router>
-          
+          <ScrollToTop>
             <Header></Header>
-
             <Switch>
 
               <Route exact path="/">
@@ -43,27 +34,22 @@ function App() {
               <Route path="/home">
                 <Home></Home>
               </Route>
-              <PrivateRoute path="/service">
-                <AllServices></AllServices>
+
+              <PrivateRoute path="/packages/:packageId">
+                <PackageDetail></PackageDetail>
               </PrivateRoute>
 
-              
-
-              <PrivateRoute path="/appointment">
-                <Appointment></Appointment>
+              <PrivateRoute path="/addPackage">
+                <AddPackage></AddPackage>
               </PrivateRoute>
-<Route path="/addService">
-  <AddService></AddService>
-</Route>
-              
 
-              
-
-              <PrivateRoute path="/serviceDetails/:serviceId">
-                <ServiceDetails></ServiceDetails>
+              <PrivateRoute path="/myBooking">
+                <MyBooking></MyBooking>
               </PrivateRoute>
-              
-              
+
+              <PrivateRoute path="/allBooking">
+                <AllBooking></AllBooking>
+              </PrivateRoute>
 
               <Route path="/login">
                 <Login></Login>
@@ -76,12 +62,9 @@ function App() {
             </Switch>
 
             <Footer></Footer>
-
-          
+          </ScrollToTop>
         </Router>
-
       </AuthProvider>
-
     </div>
   );
 }

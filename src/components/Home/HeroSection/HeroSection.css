@@ -1,9 +1,16 @@
-.hero {
-  background-color: #102040;
-  color: aliceblue;
-  height: 35rem;
-}
 
-.typist {
-  color: aliceblue;
+
+.carousel-caption {
+    position: absolute;
+    /* right: 0%; 
+    bottom: 20px;
+    left: 0%;  */
+    z-index: 1;
+     /* padding-top: 20px; */
+    /* padding-bottom: 200px;  */
+    color: #fff;
+    /* background-color: aqua; */
+    /* text-align: left;  */
+    /* position: sticky; */
+  /* top: 0; */
 }
