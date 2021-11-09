@@ -1,9 +1,8 @@
 import React from 'react';
+import AboutUS from '../AboutUS/AboutUS';
 import AllPackage from '../AllPackage/AllPackage';
-import ContactUs from '../ContactUs/ContactUs/ContactUs';
 import HeroSection from '../HeroSection/HeroSection';
-import PhotoGallery from '../PhotoGallery/PhotoGallery';
-import Reviews from '../Reviews/Reviews';
+import TourGuide from '../TourGuide/TourGuide';
 import './Home.css';
 
 
@@ -11,10 +10,10 @@ const Home = () => {
     return (
         <div>
             <HeroSection></HeroSection>
+            <TourGuide></TourGuide>
             <AllPackage></AllPackage>
-            <Reviews></Reviews>
-            <PhotoGallery></PhotoGallery>
-            <ContactUs></ContactUs>
+            <AboutUS></AboutUS>
+            
         </div>
     );
 };

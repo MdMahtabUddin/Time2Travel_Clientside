@@ -10,7 +10,7 @@ const AllPackage = () => {
     useEffect(() => {
         try {
             async function callApi() {
-                let results = await fetch('https://nameless-retreat-42432.herokuapp.com/packages');
+                let results = await fetch('http://localhost:5000/packages');
                 results = await results.json();
                 setPackages(results);
             }

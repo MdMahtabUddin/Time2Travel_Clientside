@@ -26,7 +26,7 @@ const MyBooking = (props) => {
     useEffect(() => {
         try {
             async function callApi() {
-                let results = await fetch(`https://nameless-retreat-42432.herokuapp.com/myBooking?email=${email}`);
+                let results = await fetch(`http://localhost:5000/myBooking?email=${email}`);
                 results = await results.json();
                 setMyBooking(results);
             }

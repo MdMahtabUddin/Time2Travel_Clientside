@@ -25,7 +25,7 @@ const AllBooking = () => {
     useEffect(() => {
         try {
             async function callApi() {
-                let results = await fetch('https://nameless-retreat-42432.herokuapp.com/allBooking');
+                let results = await fetch('http://localhost:5000/allBooking');
                 results = await results.json();
                 setAllBooking(results);
 

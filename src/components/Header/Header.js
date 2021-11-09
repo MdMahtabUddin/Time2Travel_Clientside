@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import logo from '../../images/logo.png'
+// import logo from '../../images/logo.png'
 import useAuth from '../../hooks/useAuth';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -55,7 +55,8 @@ const Header = () => {
                 <div className="container">
                     <Link to={''} className="navbar-brand">
                         <div>
-                            <img src={logo} alt="" style={{ height: '80px' }} />
+                            {/* <img src={logo} alt="" style={{ height: '80px' }} /> */}
+                            <h3>Time 2 Travel </h3>
                         </div>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,16 +70,16 @@ const Header = () => {
                             <li className="nav-item cool-link">
                                 <HashLink as={HashLink} to="/home#allPackages" className="nav-link">Packages</HashLink>
                             </li>
-                            <li className="nav-item cool-link">
+                            {/* <li className="nav-item cool-link">
                                 <HashLink as={HashLink} to="/home#photoGallery" className="nav-link">Gallery</HashLink>
-                            </li>
-                            <li className="nav-item cool-link">
+                            </li> */}
+                            {/* <li className="nav-item cool-link">
                                 <HashLink as={HashLink} to="/home#contactUs" className="nav-link">Contact</HashLink>
-                            </li>
+                            </li> */}
 
-                            <li className="nav-item cool-link">
+                            {/* <li className="nav-item cool-link">
                                 <HashLink as={HashLink} to="/home#reviews" className="nav-link">Reviews</HashLink>
-                            </li>
+                            </li> */}
                         </ul>
 
                         <ul className="d-flex align-items-center navbar-nav ms-auto mb-2 mb-lg-0">

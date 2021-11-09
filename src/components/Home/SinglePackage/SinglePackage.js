@@ -11,7 +11,7 @@ import Rating from 'react-rating';
 
 const SinglePackage = (props) => {
 
-    const { _id, name, details, image, rating } = props.packageDetails;
+    const { _id, name, details, image,price, rating } = props.packageDetails;
 
     const url = `/packages/${_id}`;
 
@@ -23,7 +23,7 @@ const SinglePackage = (props) => {
 
     let randomRating = Math.floor(Math.random() * 5) + 1;
     let randomReviewNumber = Math.floor(Math.random() * 10000) + 1;
-    let randomPerNightNumber = randomNumber();
+    // let randomPerNightNumber = randomNumber();
 
     return (
         <div className="col">
@@ -47,13 +47,14 @@ const SinglePackage = (props) => {
                                 <small className="text-secondary ms-2 fw-lighter">{randomReviewNumber}</small>
                             </div>
                             <p>
-                                <small className="fw-bold text-dark">from ${randomPerNightNumber}/night</small>
+                                Price: {price}
+                                {/* <small className="fw-bold text-dark">from ${randomPerNightNumber}/night</small> */}
                             </p>
                         </div>
                         {/* <Link to={url}> */}
-                        {/* <button className="btn px-0">
+                        <button className="btn px-0">
                             <FontAwesomeIcon icon={faPlusCircle} />  Booked Now
-                        </button> */}
+                        </button>
                     </div>
                 </Link>
             </Fade>
