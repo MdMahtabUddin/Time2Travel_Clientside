@@ -12,11 +12,11 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-lg-3 col-sm-6">
                                 <div className="address">
-                                    <h3>Basecamp Adventures Ltd.</h3>
+                                    <h3>Time 2 Travel</h3>
                                     <p className="mb-4 mt-4">
-                                        Shafipur, Purbopara, Madhabpur 1349 Gazipur, Dhaka Division, Bangladesh                                    </p>
-                                    <p><strong>Phone:</strong> 01952-777999 (10AM-5PM)</p>
-                                    <p><strong>Email:</strong> info@thebasecampbd.com</p>
+                                        R-2 Chanmia Housing Mohammadpur, Dhaka Division, Bangladesh                                    </p>
+                                    <p><strong>Phone:</strong> 0171737**** (10AM-5PM)</p>
+                                    <p><strong>Email:</strong> info@time2travel.com</p>
                                 </div>
                             </div>
 

@@ -1,19 +1,24 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import './TourGuide.css';
+import guide1 from '../../../images/guide/guide1.jpeg';
+import guide2 from '../../../images/guide/guide2.jpeg';
+import guide3 from '../../../images/guide/guide3.jpeg';
+import guide4 from '../../../images/guide/guide4.jpeg';
+
 const TourGuide = () => {
     return (
         <div>
             <div className="container">
             <div className="about-title2 mt-5">
-                         <h5 className="tomato-text">Tour Guide</h5>
-                         <h2 className="top-title">All Guide Are 5 Year<br/>Expart In Travel</h2>
+                         
+                         <h2 className="top-title text-center">All Guide Are <br/>Expart In Travel</h2>
             </div>             
 
             <div className="about-grid mt-5">
              <div>
              <Card className="pos" style={{ width: '17rem', height: '28rem'}}>
-                 {/* <Card.Img variant="top" className="img" src={guide1} /> */}
+                 <Card.Img variant="top" className="img" src={guide1} />
                  <Card.Body>
 
        
@@ -32,7 +37,7 @@ const TourGuide = () => {
              </div>
              <div>
              <Card className="pos" style={{ width: '17rem', height: '28rem'}}>
-                 {/* <Card.Img variant="top" className="img" src={guide2} /> */}
+                 <Card.Img variant="top" className="img" src={guide2} />
                  <Card.Body>
 
        
@@ -51,7 +56,7 @@ const TourGuide = () => {
              </div>
              <div>
              <Card className="pos" style={{ width: '17rem', height: '28rem'}}>
-                 {/* <Card.Img variant="top" className="img" src={guide3} /> */}
+                 <Card.Img variant="top" className="img" src={guide3} />
                  <Card.Body>
 
        
@@ -70,7 +75,7 @@ const TourGuide = () => {
              </div>
              <div>
              <Card className="pos" style={{ width: '17rem', height: '28rem'}}>
-                 {/* <Card.Img variant="top" className="img" src={guide4} /> */}
+                 <Card.Img variant="top" className="img" src={guide4} />
                  <Card.Body>
 
        

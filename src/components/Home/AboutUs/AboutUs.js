@@ -1,23 +1,20 @@
 import React from 'react';
-
+import travel from '../../../images/travel.gif'
 const AboutUS = () => {
     return (
         <div>
         <div className="banner-container">
           <div className="row d-flex align-items-center justify-content-center">
             <div className="col-md-6">
-              <img className="w-100 m-2" src={womenAboutUsImg} alt="" />
+              <img className="w-100 m-2" src={travel} alt="" />
             </div>
             <div className="col-md-6 p-5">
               <h1 className="my-5 text-success">About Us</h1>
               <p>
-                About Us! Life & Care Hospital was established in 2021.
-                It is one of the speciality and superspeciality hospital which
-                extends medical care to patient in a very friendly and homely
-                environment.
+                About Us! Time 2 Travel was established in 2021.
+                It is one of the best travel agency at Dhaka City.
                 <br />
-                We at Royal Multispeciality Hospital believe that any person in
-                need of medical help comes to a doctor/hospital with high
+                We believe that any person in need of tour help comes to a office with high
                 expectations, hoping that he will be relieved of distress and
                 treated with compassion and care.
               </p>

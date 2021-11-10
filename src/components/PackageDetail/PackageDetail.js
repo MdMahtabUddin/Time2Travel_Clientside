@@ -48,7 +48,7 @@ const PackageDetail = () => {
         const onlyDate = checkInDate.toLocaleDateString();
         onlyDate && (data.date = onlyDate);
         console.log('booking data', data)
-        axios.post('http://localhost:5000/addBooking', data)
+        axios.post('https://floating-lowlands-13908.herokuapp.com/addBooking', data)
             .then(res => {
                 // setStatus(res.data);
                 setAllBooking([...allBooking, res.data])
@@ -72,7 +72,7 @@ const PackageDetail = () => {
     useEffect(() => {
         try {
             async function callApi() {
-                let results = await fetch(`http://localhost:5000/packages/${packageId}`);
+                let results = await fetch(`https://floating-lowlands-13908.herokuapp.com/packages/${packageId}`);
                 results = await results.json();
                 setPackageDetails(results);
             }

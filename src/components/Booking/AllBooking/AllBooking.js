@@ -25,7 +25,7 @@ const AllBooking = () => {
     useEffect(() => {
         try {
             async function callApi() {
-                let results = await fetch('http://localhost:5000/allBooking');
+                let results = await fetch('https://floating-lowlands-13908.herokuapp.com/allBooking');
                 results = await results.json();
                 setAllBooking(results);
 

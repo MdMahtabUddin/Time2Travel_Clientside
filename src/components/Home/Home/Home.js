@@ -1,10 +1,9 @@
 import React from 'react';
-import AboutUS from '../AboutUS/AboutUS';
 import AllPackage from '../AllPackage/AllPackage';
 import HeroSection from '../HeroSection/HeroSection';
 import TourGuide from '../TourGuide/TourGuide';
 import './Home.css';
-
+import AboutUs from '../AboutUs/AboutUs'
 
 const Home = () => {
     return (
@@ -12,7 +11,7 @@ const Home = () => {
             <HeroSection></HeroSection>
             <TourGuide></TourGuide>
             <AllPackage></AllPackage>
-            <AboutUS></AboutUS>
+            <AboutUs></AboutUs>
             
         </div>
     );
