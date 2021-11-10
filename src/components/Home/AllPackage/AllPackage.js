@@ -25,7 +25,7 @@ const AllPackage = () => {
         <div className="container my-5" id="allPackages">
             <div className="px-2 py-4 px-md-4 py-md-3 bg-white shadow-sm rounded">
                 <div className="text-center py-5 ">
-                    <h1 className="display-1 fw-bold"> OUR TOUR <span className="custom-khaki-color">PACKAGES</span></h1>
+                    <h1 className=""> OUR TOUR <span className="custom-khaki-color">PACKAGES</span></h1>
                     
                 </div>
 

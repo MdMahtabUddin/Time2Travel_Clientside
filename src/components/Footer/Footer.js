@@ -25,7 +25,7 @@ const Footer = () => {
                                 <ul>
                                     <li><i className="fas fa-check"></i> <a href="#">Home</a></li>
                                     <li><i className="fas fa-check"></i> <a href="#">About us</a></li>
-                                    <li><i className="fas fa-check"></i> <a href="#">Services</a></li>
+                                    <li><i className="fas fa-check"></i> <a href="#">Tour Guide</a></li>
                                     <li><i className="fas fa-check"></i> <a href="#">Terms of service</a></li>
                                     <li><i className="fas fa-check"></i> <a href="#">Privacy policy</a></li>
                                 </ul>
@@ -34,10 +34,10 @@ const Footer = () => {
                             <div className="col-lg-3 col-sm-6 footer-menus">
                                 <h4>Our Packages</h4>
                                 <ul>
-                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/home#allPackages">Bungalow</HashLink></li>
-                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/home#allPackages">Clamping Tents</HashLink></li>
-                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/home#allPackages">School Activity Packages</HashLink></li>
-                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/home#allPackages">Corporate Package</HashLink></li>
+                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/home#allPackages">Sundarban</HashLink></li>
+                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/home#allPackages">Cox's Bazar</HashLink></li>
+                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/home#allPackages">Sajek</HashLink></li>
+                                    <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/home#allPackages">Rangamati</HashLink></li>
                                     <li><i className="fas fa-check"></i> <HashLink as={HashLink} to="/home#allPackages">And More...</HashLink></li>
                                 </ul>
                             </div>
@@ -64,9 +64,9 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-12">
                                 <p >
-                                    Copyright &copy; <span id="currentYear"></span> Yellow Devs | Site designed by <a
-                                        href="https://yellow-devs.netlify.app/" target="_blank" rel="noreferrer" title="Yellow Devs Website">
-                                        <span className="text-white"  >Yellow Devs</span></a>
+                                    Copyright &copy; <span id="currentYear"></span> Mahtab Uddin | Site designed by <a
+                                        href="" target="_blank" rel="noreferrer" title="Mahtab 45">
+                                        <span className="text-white"  >Mahtab 45</span></a>
                                 </p>
                             </div>
                         </div>

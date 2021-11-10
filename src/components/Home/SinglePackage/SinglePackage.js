@@ -33,13 +33,11 @@ const SinglePackage = (props) => {
                         <div>
                             <img src={image} className="card-img-top packages-card-img" alt="..." />
                         </div>
-                        {/* </Link> */}
                         <div className="card-body px-0">
                             <p className="card-title fw-bold">{name}</p>
                             <div>
                             <p>{serviceDetail} </p>
                             </div>
-                            {/* <p className="card-text text-secondary font-weight-light">{details.slice(0, 180)}</p> */}
                             <div className="custom-khaki-color">
                                 <Rating
                                     initialRating={randomRating}
@@ -47,7 +45,6 @@ const SinglePackage = (props) => {
                                     fullSymbol="fas fa-star"
                                     readonly
                                 />
-                                {/* <small className="text-secondary ms-2 fw-lighter">{randomReviewNumber}</small> */}
                             </div>
                             <p>
                                 Price: {price}
@@ -55,10 +52,8 @@ const SinglePackage = (props) => {
                                 <button className="btn px-0">
                             <FontAwesomeIcon icon={faPlusCircle} />  Booked Now
                         </button>
-                                {/* <small className="fw-bold text-dark">from ${randomPerNightNumber}/night</small> */}
                             </p>
                         </div>
-                        {/* <Link to={url}> */}
                         
                     </div>
                 </Link>

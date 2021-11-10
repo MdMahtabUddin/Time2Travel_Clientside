@@ -4,7 +4,6 @@ import HeroSection from '../HeroSection/HeroSection';
 import TourGuide from '../TourGuide/TourGuide';
 import './Home.css';
 import AboutUs from '../AboutUs/AboutUs'
-
 const Home = () => {
     return (
         <div>
